@@ -1,0 +1,468 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="css/plugins/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="css/plugins/test.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <title>QLMT</title>
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            
+            <div  style="border: solid 4px #0094ff; width:inherit;height:105px">        
+                <div class="fa-lg bold color_green">
+                    <img class="normal" src="logo.png">QUẢN LÝ MÔI TRƯỜNG</div>           
+            </div>
+            <!-- /.navbar-header -->            
+
+            <div class="sidebar" role="navigation">
+                <div class=" sidebar-nav navbar-collapse">
+                    <ul  class ="nav" id="side-menu">                                                                        
+                         <li>
+                            <a href="#"><i class="fa fa-fw"></i>Quản lý người dùng<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="FormDK.html">Đăng ký mới</a>
+                                </li>
+                                <li>
+                                    <a href="TTCaNhan.html">Thông tin cá nhân</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a class="active" href="XemDuLieu.html"><i class="fa fa-fw"></i>Xem dữ liệu</a>
+                        </li>
+
+                        <li >
+                            <a href="#"><i class="fa fa-fw"></i>Thao tác dữ liệu<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="DanhSachSenSor.html">SenSor</a>
+                                </li>
+                                <li>
+                                    <a href="NguoiDung.html">Người dùng</a>
+                                </li>
+                                <li>
+                                    <a href="CPN.html.html">Công ty</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        
+                    </ul>
+                    
+                        <div style="padding-top:50px;padding-right:30px">        
+                            <div class="panel panel-default col-md-offset-1" >
+                                <div style="border: solid 1px #0094ff; width:inherit;height:30px">
+                                    <div class="bold color_red" style="padding-left:25px;padding-top:3px">Thông tin hoạt động</div>
+                                </div>
+                                <div class="panel-body" style="padding-left:10px">
+                                    <a href="tinmoi1.html" style="padding-bottom:5px" class="bold">Tin mới 1</a>
+                                </div>
+                                <div class="panel-body" style="padding-left:10px">
+                                    <a href="tinmoi2.html" style="padding-bottom:5px" class="bold">Tin mới 2</a>
+                                </div>
+                            </div>         
+                        </div>
+                        
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+         <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Hoạt động SenSor</h1>
+            </div>
+            <div style="padding-left: 20px">
+                <div class="col-lg-offset-7" style="position: absolute; padding-top: 20px">
+                    <ul class="nav" id="Ul1">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 80px">
+            <div style="padding-left: 30px" class="font1 bold color_green">CT1</div>
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>SenSor ID</th>
+                                        <th>SenSor Name</th>
+                                        <th>Conditionld</th>
+                                        <th>Stationld</th>
+                                        <th>Note</th>
+                                        <th>Created</th>
+                                        <th>Updated</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="odd gradeX">
+                                        <td>1</td>
+                                        <td>SS1</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="even gradeC">
+                                        <td>2</td>
+                                        <td>SS2</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">5</td>
+                                        <td class="center">C</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="odd gradeA">
+                                        <td>3</td>
+                                        <td>SS3</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">5.5</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="even gradeA">
+                                        <td>4</td>
+                                        <td>SS4</td>
+                                        <td>Win 98+</td>
+                                        <td class="center">6</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="odd gradeA">
+                                        <td>5</td>
+                                        <td>SS5</td>
+                                        <td>Win XP SP2+</td>
+                                        <td class="center">7</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.table-responsive -->
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+
+        <div class="row" style="padding-top: 80px">
+            <div style="padding-left: 30px" class="font1 bold color_green">CT2</div>
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>SenSor ID</th>
+                                        <th>SenSor Name</th>
+                                        <th>Conditionld</th>
+                                        <th>Stationld</th>
+                                        <th>Note</th>
+                                        <th>Created</th>
+                                        <th>Updated</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="odd gradeX">
+                                        <td>1</td>
+                                        <td>SS1</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="even gradeC">
+                                        <td>2</td>
+                                        <td>SS2</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">5</td>
+                                        <td class="center">C</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="odd gradeA">
+                                        <td>3</td>
+                                        <td>SS3</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">5.5</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="even gradeA">
+                                        <td>4</td>
+                                        <td>SS4</td>
+                                        <td>Win 98+</td>
+                                        <td class="center">6</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="odd gradeA">
+                                        <td>5</td>
+                                        <td>SS5</td>
+                                        <td>Win XP SP2+</td>
+                                        <td class="center">7</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.table-responsive -->
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+
+        <div class="row" style="padding-top: 80px">
+            <div style="padding-left: 30px" class="font1 bold color_green">CT3</div>
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover" >
+                                <thead>
+                                    <tr>
+                                        <th>SenSor ID</th>
+                                        <th>SenSor Name</th>
+                                        <th>Conditionld</th>
+                                        <th>Stationld</th>
+                                        <th>Note</th>
+                                        <th>Created</th>
+                                        <th>Updated</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="odd gradeX">
+                                        <td>1</td>
+                                        <td>SS1</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="even gradeC">
+                                        <td>2</td>
+                                        <td>SS2</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">5</td>
+                                        <td class="center">C</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="odd gradeA">
+                                        <td>3</td>
+                                        <td>SS3</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">5.5</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="even gradeA">
+                                        <td>4</td>
+                                        <td>SS4</td>
+                                        <td>Win 98+</td>
+                                        <td class="center">6</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="odd gradeA">
+                                        <td>5</td>
+                                        <td>SS5</td>
+                                        <td>Win XP SP2+</td>
+                                        <td class="center">7</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.table-responsive -->
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+
+        <div class="row" style="padding-top: 80px">
+            <div style="padding-left: 30px" class="font1 bold color_green">CT4</div>
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>SenSor ID</th>
+                                        <th>SenSor Name</th>
+                                        <th>Conditionld</th>
+                                        <th>Stationld</th>
+                                        <th>Note</th>
+                                        <th>Created</th>
+                                        <th>Updated</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="odd gradeX">
+                                        <td>1</td>
+                                        <td>SS1</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="even gradeC">
+                                        <td>2</td>
+                                        <td>SS2</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">5</td>
+                                        <td class="center">C</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="odd gradeA">
+                                        <td>3</td>
+                                        <td>SS3</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">5.5</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="even gradeA">
+                                        <td>4</td>
+                                        <td>SS4</td>
+                                        <td>Win 98+</td>
+                                        <td class="center">6</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                    <tr class="odd gradeA">
+                                        <td>5</td>
+                                        <td>SS5</td>
+                                        <td>Win XP SP2+</td>
+                                        <td class="center">7</td>
+                                        <td class="center">A</td>
+                                        <td class="center">4</td>
+                                        <td class="center">X</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.table-responsive -->
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-6 -->
+
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+
+        <div style="border: solid 4px #0094ff; width:inherit;height:80px;padding-left:10px">                  
+            <div class="bold color_green font1" >Trung tâm thông tin và tư liệu về môi trường</div>
+            <div class="bold" >Địa chỉ : 268 Lý Thường Kiệt Quận 10 TP HCM</div>            
+        </div>
+</div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
+</body>
+    </html>

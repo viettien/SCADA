@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>QLMT</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="css/plugins/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="css/plugins/test.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div  style="border: solid 4px #0094ff; width:inherit;height:105px">        
+                <div class="fa-lg bold color_green">
+                    <img class="normal" src="logo.png">QUẢN LÝ MÔI TRƯỜNG</div>           
+            </div>
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>Quản lý người dùng<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="FormDK.html">Đăng ký mới</a>
+                                </li>
+                                <li>
+                                    <a href="TTCaNhan.html">Thông tin cá nhân</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="XemDuLieu.html"><i class="fa fa-fw"></i>Xem dữ liệu</a>
+                        </li>
+
+                        <li class="active">
+                            <a  href="#"><i class="fa fa-fw"></i>Thao tác dữ liệu<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a class="active" href="DanhSachSenSor.html">SenSor</a>
+                                </li>
+                                <li>
+                                    <a href="NguoiDung.html">Người dùng</a>
+                                </li>
+                                <li>
+                                    <a href="CPN.html.html">Công ty</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+
+                        <div style="padding-top:50px;padding-right:30px">        
+                            <div class="panel panel-default col-md-offset-1" >
+                                <div style="border: solid 1px #0094ff; width:inherit;height:30px">
+                                    <div class="bold color_red" style="padding-left:25px;padding-top:3px">Thông tin hoạt động</div>
+                                </div>
+                                <div class="panel-body" style="padding-left:10px">
+                                    <a href="tinmoi1.html" style="padding-bottom:5px" class="bold">Tin mới 1</a>
+                                </div>
+                                <div class="panel-body" style="padding-left:10px">
+                                    <a href="tinmoi2.html" style="padding-bottom:5px" class="bold">Tin mới 2</a>
+                                </div>
+                            </div>         
+                        </div>
+
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+             <div class="row">
+                 <div class="col-lg-7">
+                    <h1>Danh sách sensor</h1>
+                </div>
+                <div style="padding-left:20px">
+                    <div class="col-lg-offset-7" style="position:absolute;padding-top:20px;padding-right:30px">               
+                        <ul class="nav" id="Ul1">
+                            <li class="sidebar-search">
+                                <div class="input-group custom-search-form">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                                <!-- /input-group -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <form class="form-horizontal " role="form">
+                           <div class="col-lg-offset-1" style="padding-top:90px">
+                             <table>
+                                 <tr>
+                                     <td>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                CT1
+                                            </div>
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="bold" style="padding-top:15px">SenSor1</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor2</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor3</div>
+                                                        </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a> 
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>                                
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>
+                                                             </div>
+                                                         </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a> 
+                                                             </div>
+                                                         </td>
+                                                    </tr>
+                                                </table>
+                                            </div>                                
+                                        </div>
+                                    </td>                  
+
+                                    <td style="padding-left:100px">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                CT1
+                                            </div>
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="bold" style="padding-top:15px">SenSor1</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor2</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor3</div>
+                                                        </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a> 
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>                                
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>
+                                                             </div>
+                                                         </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a> 
+                                                             </div>
+                                                         </td>
+                                                    </tr>
+                                                </table>
+                                            </div>                                
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                 <tr>
+                                     <td style="padding-top:50px">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                CT1
+                                            </div>
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="bold" style="padding-top:15px">SenSor1</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor2</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor3</div>
+                                                        </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a> 
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>                                
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>
+                                                             </div>
+                                                         </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a> 
+                                                             </div>
+                                                         </td>
+                                                    </tr>
+                                                </table>
+                                            </div>                                
+                                        </div>
+                                    </td>                  
+
+                                    <td style="padding-left:100px;padding-top:50px">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                CT1
+                                            </div>
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="bold" style="padding-top:15px">SenSor1</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor2</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor3</div>
+                                                        </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a> 
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>                                
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>
+                                                             </div>
+                                                         </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a> 
+                                                             </div>
+                                                         </td>
+                                                    </tr>
+                                                </table>
+                                            </div>                                
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                 <tr>
+                                     <td style="padding-top:50px">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                CT1
+                                            </div>
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="bold" style="padding-top:15px">SenSor1</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor2</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor3</div>
+                                                        </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a> 
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>                                
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>
+                                                             </div>
+                                                         </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a> 
+                                                             </div>
+                                                         </td>
+                                                    </tr>
+                                                </table>
+                                            </div>                                
+                                        </div>
+                                    </td>                  
+
+                                    <td style="padding-left:100px;padding-top:50px">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                CT1
+                                            </div>
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="bold" style="padding-top:15px">SenSor1</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor2</div>
+                                                            <div class="bold" style="padding-top:15px">SenSor3</div>
+                                                        </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a> 
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>                                
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">UpDated</a>
+                                                             </div>
+                                                         </td>
+                                                         <td>
+                                                             <div style="padding-left:30px;padding-top:10px">
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a>
+                                                                <a href="#"class="btn btn-lg1 btn-success btn-block " style="border: solid 2px #0094ff; width: 100px;font-weight:bold">Delete</a> 
+                                                             </div>
+                                                         </td>
+                                                    </tr>
+                                                </table>
+                                            </div>                                
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>         
+                        </div> 
+                    </form>
+                </div>
+                <!-- /.col-lg-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+        <div style="border: solid 4px #0094ff; width:inherit;height:80px;padding-left:10px">                  
+            <div class="bold color_green font1" >Trung tâm thông tin và tư liệu về môi trường</div>
+            <div class="bold" >Địa chỉ : 268 Lý Thường Kiệt Quận 10 TP HCM</div>            
+        </div> 
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+﻿img.normal {
+    height:auto;
+}
+
+.bold {   
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.color_green {
+    color:#00ff21;
+}
+.color_red {
+    color:#f00;
+}
+.color_black {
+    color:#050505;
+}
+font {
+    font-size: 1em;
+}
+
+font1 {
+    font-size: 1.5em;
+}
+
+.panel-heading_new {
+  padding-left:35px;
+  padding-top:10px;
+  border: solid 2px #0094ff;
+  width:100px;
+  height:40px;
+  border-color: #0094ff;
+}
+
+.btn-lg1 {
+  padding: 10px 16px;
+  font-size: 18px;
+  font-weight:bold;
+  line-height: 0.8;
+  border-radius: 6px;
+}
+
+.btn-success1 {
+  color: #fff;
+  background-color: #fff;
+  border-color: #4cae4c;
+}
+
+.sidebar1 {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+
+    }
